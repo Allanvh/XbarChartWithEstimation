@@ -4,7 +4,7 @@
 #'
 #' LadjSp(370,25,5)
 #'
-#' @import cubature
+#' 
 #'
 
 
