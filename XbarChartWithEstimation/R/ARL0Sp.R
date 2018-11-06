@@ -6,6 +6,8 @@
 #'
 #' @import cubature
 #'
+#'@export
+
 
 
 ARL0Sp <- function (L,m,n) {

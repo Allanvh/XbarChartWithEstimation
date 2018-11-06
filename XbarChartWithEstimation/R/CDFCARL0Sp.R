@@ -6,6 +6,7 @@
 #'
 #' @import cubature
 #'
+#' @export
 
 
 CDFCARL0Sp <- function (t,L,m,n) {
