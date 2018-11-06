@@ -11,7 +11,7 @@
 
 
 ARL0Sp <- function (L,m,n) {
-
+  library(cubature)
 
   if (L<=0 ||  L> 5 || m < 1 || n < 2 || m%%1 != 0 || n%%1 != 0 ){
     print(paste("Please, revise your entries according to the following conditions:"))
