@@ -4,8 +4,7 @@
 #'
 #' plotPDFCARL0(3,25,5)
 #'
-#' @import cubature
-#' @import numDeriv
+#' @import cubature, numDeriv
 #'
 
 
