@@ -4,8 +4,8 @@
 #'
 #' LadjSp(370,25,5)
 #'
-#' 
 #'
+#'@import cubature
 
 
 LadjSp <- function(ARL0nom,m,n) {
