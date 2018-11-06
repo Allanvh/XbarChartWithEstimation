@@ -9,7 +9,7 @@
 
 
 LadjSp <- function(ARL0nom,m,n) {
-
+  library(cubature)
   if (ARL0nom > 1000 || ARL0nom < 2 || m < 17 || n < 3 || m%%1 != 0 || n%%1 != 0 ) {
     print(paste("Please, revise your entries according to the following conditions:"))
     print(paste("The nominal in-control ARL must be between 2 and 1000"))
