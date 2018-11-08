@@ -1,3 +1,3 @@
 import('cubature')
 
-export('ARL0Sp', 'SDRL0Sp')
+export('ARL0Sp', 'SDRL0Sp', 'plotPDFCARL0')
