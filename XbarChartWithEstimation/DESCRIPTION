@@ -6,5 +6,5 @@ Description: There are functions to Xbar chart with estimated parameters
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Depends: R (>= 3.3.0), cubature
+Depends: R (>= 3.3.0), cubature, numDeriv
 
