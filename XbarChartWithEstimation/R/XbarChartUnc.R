@@ -104,7 +104,7 @@ XbarChartUnc <- function() {
   
   print(paste("The Unconditional Upper Control Limit (UCL) = ", UCL))
   print(paste("The Central Line (CL) = ", xbarbar))
-  print(paste("The Unconditional Lower Control Limit (UCL) = ", LCL))
+  print(paste("The Unconditional Lower Control Limit (LCL) = ", LCL))
   
   UCL2 <- round(UCL,2)
   LCL2 <- round(LCL,2)
