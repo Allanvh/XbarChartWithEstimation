@@ -111,7 +111,7 @@ XbarChartUnc <- function() {
   CL2 <- round(xbarbar,2) 
   
   dev.new()
-  plot.new(); plot.window(xlim=c(1,10),ylim=c(0.9*LCL2,1.1*UCL2) )
+  plot.new(); plot.window(xlim=c(1,10),ylim=c(LCL2,UCL2) )
   abline(h=UCL2,lty=5.5)
   axis(2,UCL2,cex.axis=1,las=1)
   abline(h=LCL2,lty=5.5)
