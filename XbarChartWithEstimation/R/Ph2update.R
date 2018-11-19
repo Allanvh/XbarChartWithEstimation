@@ -16,3 +16,7 @@ check.packages(packages)
 require(mvtnorm)
 
 source(file = 'https://raw.githubusercontent.com/bolus123/PH1AND2XBAR/master/R/main.R')
+
+###########################################################################################
+
+PH2.L <- PH2.get.cc
