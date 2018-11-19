@@ -13,9 +13,9 @@ install_github('bolus123/PH1AND2XBAR')
 
 ###########################################################################################
 
-require(mvtnorm)
+#require(mvtnorm)
 
-source(file = 'https://raw.githubusercontent.com/bolus123/PH1AND2XBAR/master/R/main.R')
+#source(file = 'https://raw.githubusercontent.com/bolus123/PH1AND2XBAR/master/R/main.R')
 
 ###########################################################################################
 
