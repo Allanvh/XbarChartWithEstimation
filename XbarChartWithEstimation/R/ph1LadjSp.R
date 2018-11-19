@@ -1,10 +1,10 @@
-PH1.get.cc <- function(
+ph1LadjSp <- function(
   k
   ,nu
   ,FAP = 0.1
   ,off.diag = -1/(k - 1)
   #,alternative = '2-sided'
-  ,c4.option = TRUE
+  ,c4.option = FALSE
   ,maxiter = 10000
   ,method = 'direct'
   ,indirect.interval = c(1, 7)
