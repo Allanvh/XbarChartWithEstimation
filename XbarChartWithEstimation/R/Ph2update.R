@@ -8,8 +8,8 @@ check.packages <- function(pkg){
 
 ###########################################################################################
 
-packages<-c("mvtnorm")
-check.packages(packages)
+packages<-c("devtools")
+install_github('bolus123/PH1AND2XBAR')
 
 ###########################################################################################
 
