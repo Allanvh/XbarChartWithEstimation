@@ -2,4 +2,4 @@ import('cubature', 'numDeriv', 'mvtnorm')
 
 export('LadjSp', 'LadjSpEPC', 'ARL0Sp',
   SDRL0Sp,quantileRL0Sp,CDFRL0Sp,PMFRL0Sp,plotCDFRL0Sp,plotPMFRL0Sp,CDFCARL0Sp,MminSpEPC,SDCARL0Sp,quantileCARL0Sp,
-  plotCDFCARL0,plotPDFCARL0,XbarChartUnc, PH1.get.cc)
+  plotCDFCARL0,plotPDFCARL0,XbarChartUnc, 'PH1.get.cc')
