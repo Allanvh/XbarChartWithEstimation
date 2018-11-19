@@ -450,7 +450,7 @@ ph1LadjSp <- function(a,b,c) {
     
   }
   
-  d <- ph1LadjSpt(a,a*(b-c),c)$c.i
+  d <- ph1LadjSpt(a,a*(b-1),c)$c.i
   return (d)
   
 }
