@@ -1,3 +1,15 @@
+
+#' ph1LadjSp
+#'
+#' @examples
+#'
+#' ph1LadjSp(100,100,5)
+#'
+#' @import cubature
+#'
+
+
+
 ph1LadjSp <- function(a,b,c) {
   
   ph1LadjSpt <- function(
