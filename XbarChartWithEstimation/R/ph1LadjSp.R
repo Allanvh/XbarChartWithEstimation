@@ -1,16 +1,17 @@
-
 #' ph1LadjSp
 #'
 #' @examples
 #'
 #' ph1LadjSp(100,100,5)
 #'
-#' @import cubature
+#' @import mvtnorm
 #'
 
 
 
 ph1LadjSp <- function(a,b,c) {
+  
+  library(mvtnorm)
   
   ph1LadjSpt <- function(
     k
