@@ -9,10 +9,9 @@
 
 
 
+
 ph1LadjSp <- function(a,b,c) {
-  
   library(mvtnorm)
-  
   ph1LadjSpt <- function(
     k
     ,nu
