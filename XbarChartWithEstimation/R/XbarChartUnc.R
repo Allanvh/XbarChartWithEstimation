@@ -125,7 +125,39 @@ XbarChartUnc <- function() {
       ARL0nom2 <- CL2 <- round(ARL0nom,2) 
       title(main=paste("Xbar Control Chart","for", "ARL0 = ",ARL0nom2, "m = ",m, "n = ",n ))
       
-    }
+      cat("\n")
+      cat("\n")
+      cat("Do you have a Phase II Sample? If so, write Yes\n\n")
+      
+      y <- readline()
+      
+      if (y == "yes" | y == "'yes'" | y == "'y'" | y == "y") {
+        
+        x2 <- rep(NA, n)
+        
+        for(j in 1:n) {
+          
+          cat("\n")
+          cat("Enter your Phase II data number",j,":\n\n")
+          gh <- readline()
+          x2[j] <- as.numeric(gh)
+        
+        }
+        
+        h <- mean(x2)
+        
+        points(1, h)
+      
+      }
+    
+      else{
+        
+        cat("\n")
+        cat("End of the Program.")
+        
+      }
+      
+      }
   }
   
   else {
@@ -133,3 +165,4 @@ XbarChartUnc <- function() {
   }
   
 }
+
