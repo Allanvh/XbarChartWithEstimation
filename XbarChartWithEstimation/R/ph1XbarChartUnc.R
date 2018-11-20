@@ -1,5 +1,17 @@
+#' ph1XbarChartUnc
+#'
+#' @examples
+#'
+#' ph1XbarChartUnc()
+#'
+#' @import mvtnorm
+#'
+
+
+
+
 ph1XbarChartUnc <- function() {
-  library(cubature)
+
   
   cat("Please save your Excel table with your Phase I data as .txt with only the main data. I.e., with no header, columm or row names. Each of the Phase I samples must be in a diffrent row. The number (m) of Phase I samples shoud be larger than 16 and the size (n) of each sample shoud be larger than 2. Finally, your data should be i.i.d. normally distributed. If your data follows all these conditions, plase write 'yes' and select your .txt file:\n\n")
   y <- readline()
