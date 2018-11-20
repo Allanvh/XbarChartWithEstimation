@@ -146,7 +146,7 @@ XbarChartUnc <- function() {
         
         h <- mean(x2)
         
-        points(1, h,pch=16)
+        points(1, h,lwd=5,pch=16)
       
       }
     
@@ -165,4 +165,3 @@ XbarChartUnc <- function() {
   }
   
 }
-
