@@ -546,11 +546,11 @@ ph1XbarChartUnc <- function() {
       
       if ((min(xbar)<LCL2)||(max(xbar)>UCL2)) {
         
-        title(main=paste("Phase I Xbar Control Chart","for", "FAP=",ARL0nom2, "m=",m, "n=",n , "\nWarning: The data may came from an out-of-control process!"))
+        title(main=paste("Phase I Xbar Control Chart","for", "FAP = ",ARL0nom2, "m = ",m, "n = ",n , "\nWarning: The data may came from an out-of-control process!"))
         
       }
        else {
-         title(main=paste("Phase I Xbar Control Chart","for", "FAP=",ARL0nom2, "m=",m, "n=",n))
+         title(main=paste("Phase I Xbar Control Chart","for", "FAP = ",ARL0nom2, "m = ",m, "n = ",n))
          
          
        }
