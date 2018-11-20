@@ -18,6 +18,7 @@ ph1XbarChartUnc <- function() {
   
   if (y == "yes" | y == "'yes'" | y == "'y'" | y == "y") {
     
+    dev.new()
     data <- read.table(file.choose())
     X <- data.matrix(data)
     
