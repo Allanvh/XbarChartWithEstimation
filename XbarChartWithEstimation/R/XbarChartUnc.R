@@ -115,7 +115,7 @@ XbarChartUnc <- function() {
       
       dev.new()
       par(mar=c(5,5,4,4)+.1)
-      plot.new(); plot.window(xlim=c(1,10),ylim=c(pmin(min(xbar),LCL2),pmax(max(xbar),UCL2)) )
+      plot.new(); plot.window(xlim=c(1,n),ylim=c(pmin(min(xbar),LCL2),pmax(max(xbar),UCL2)) )
       abline(h=UCL2,lty=1,lwd=3)
       axis(2,UCL2,cex.axis=1,las=1)
       abline(h=LCL2,lty=1,lwd=3)
@@ -146,7 +146,7 @@ XbarChartUnc <- function() {
         
         h <- mean(x2)
         
-        points(1, h)
+        points(1, h,pch=16)
       
       }
     
